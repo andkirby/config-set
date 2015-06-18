@@ -1,2 +1,2 @@
 # config-set
-Magento extension to work system configuration within files
+Magento extension ConfigSet to work with system configuration within files
