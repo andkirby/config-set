@@ -3,6 +3,12 @@ Magento extension ConfigSet importing system configuration.
 
 Version: 1.0.0
 
+### Composer installation
+```shell
+$ composer require andkirby/mage-config-set:@stable
+```
+
+## Functionality
 Please use path to find the module functionality:
 ```
 Admin Panel > System > Configuration > Developer > Configuration Importing
