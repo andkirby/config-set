@@ -4,7 +4,7 @@
         <dev>
             <groups>
                 <andKirby_configSet translate="label">
-                    <label>Configuration importing</label>
+                    <label>Configuration Importing</label>
                     <sort_order>1000</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>0</show_in_website>
@@ -21,7 +21,7 @@
                             <show_in_store>0</show_in_store>
                         </upload_config_file>
                         <show_config_path translate="label comment">
-                            <label>Show XPath of configuration items</label>
+                            <label>Show Configuration XPath</label>
                             <comment>This option will be saved in session because script can overload page loading.
                             </comment>
                             <frontend_type>select</frontend_type>
