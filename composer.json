@@ -6,7 +6,7 @@
   "license": "proprietary",
   "homepage": "https://github.com/andkirby/config-set",
   "require": {
-    "magento-hackathon/magento-composer-installer": "@stable",
+    "magento-hackathon/magento-composer-installer": "~2.0@stable||~3.0@stable"
   },
   "authors": [
     {
