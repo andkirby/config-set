@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AndKirby_ConfigSet>
+            <version>0.1.0</version>
+        </AndKirby_ConfigSet>
+    </modules>
+    <global>
+        <models>
+            <andKirby_configSet>
+                <class>AndKirby_ConfigSet_Model</class>
+                <resourceModel>andKirby_configSet_resource</resourceModel>
+            </andKirby_configSet>
+            <andKirby_configSet_resource>
+                <class>AndKirby_ConfigSet_Model_Resource</class>
+            </andKirby_configSet_resource>
+        </models>
+        <blocks>
+            <andKirby_configSet>
+                <class>AndKirby_ConfigSet_Block</class>
+            </andKirby_configSet>
+        </blocks>
+        <helpers>
+            <andKirby_configSet>
+                <class>AndKirby_ConfigSet_Helper</class>
+            </andKirby_configSet>
+        </helpers>
+        <resources>
+            <andKirby_configSet_setup>
+                <setup>
+                    <module>AndKirby_ConfigSet</module>
+                </setup>
+            </andKirby_configSet_setup>
+        </resources>
+    </global>
+</config>
