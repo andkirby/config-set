@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <validators>
+        <FileFilter>
+            <filter>
+                <skip>
+                    <files>
+                        <file>README.md</file>
+                    </files>
+                </skip>
+            </filter>
+        </FileFilter>
+    </validators>
+</config>
