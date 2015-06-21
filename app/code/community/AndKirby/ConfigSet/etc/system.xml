@@ -3,25 +3,25 @@
     <sections>
         <dev>
             <groups>
-                <config_set_upload translate="label">
-                    <label>Upload configuration</label>
-                    <sort_order>500</sort_order>
+                <andKirby_configSet translate="label">
+                    <label>Configuration importing</label>
+                    <sort_order>1000</sort_order>
                     <show_in_default>1</show_in_default>
-                    <show_in_website>1</show_in_website>
-                    <show_in_store>1</show_in_store>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
                     <fields>
-                        <config_file translate="label comment">
-                            <label>Config CSV file</label>
-                            <label>Please follow the format: config path,</label>
+                        <upload_config_file translate="label comment">
+                            <label>Upload configuration CSV file</label>
+                            <comment><![CDATA[Please follow the format: config_path, value]]></comment>
                             <frontend_type>file</frontend_type>
                             <backend_model>andKirby_configSet/system_config_backend_csv</backend_model>
                             <sort_order>100</sort_order>
                             <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                        </config_file>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </upload_config_file>
                     </fields>
-                </config_set_upload>
+                </andKirby_configSet>
             </groups>
         </dev>
     </sections>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <dev>
+                                        <children>
+                                            <andkirby_config_set>
+                                                <title>Config Set</title>
+                                                <sort_order>1000</sort_order>
+                                            </andkirby_config_set>
+                                        </children>
+                                    </dev>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
