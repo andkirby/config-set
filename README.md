@@ -8,6 +8,7 @@ Version: 1.0.0
 $ composer require andkirby/mage-config-set:@stable
 ```
 
+## Functionality
 Please use path to find the module functionality:
 ```
 Admin Panel > System > Configuration > Developer > Configuration Importing
