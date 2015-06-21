@@ -1,0 +1,4 @@
+app/code/community/AndKirby/ConfigSet/                                  app/code/community/AndKirby/ConfigSet/
+app/design/adminhtml/default/default/layout/andkirby/config-set.xml     app/design/adminhtml/default/default/layout/andkirby/config-set.xml
+app/design/adminhtml/default/default/template/andkirby/config-set/      app/design/adminhtml/default/default/template/andkirby/config-set/
+app/etc/modules/AndKirby_ConfigSet.xml                                  app/etc/modules/AndKirby_ConfigSet.xml
