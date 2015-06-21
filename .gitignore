@@ -1,0 +1,27 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+#########################################################
+# Ignore Magento all files                              #
+#########################################################
+*.*
+/lib
+/mage
+/js
+/var
+/shell
+#########################################################
+# Update and uncomment lines below to exclude ignoring  #
+# module files.                                         #
+# Anyway fill free to add a required file by command:   #
+#     git add -f path/to/your.file                      #
+# To add excluding recursively please use example:      #
+#     !/path/to/your/dir/**                             #
+#########################################################
+!/app/code/community/AndKirby/ConfigSet/**
+!/app/etc/modules/AndKirby_ConfigSet.xml
+!/app/design/frontend/base/default/layout/onepica/config-set.xml
+!/app/design/frontend/base/default/template/onepica/config-set/**
+!/app/design/adminhtml/base/default/layout/onepica/config-set.xml
+!/app/design/adminhtml/base/default/template/onepica/config-set/**
+!/dev/tests/integration/testsuite/AndKirby/ConfigSet/**
+!/dev/tests/unit/testsuite/AndKirby/ConfigSet/**
