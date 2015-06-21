@@ -5,7 +5,7 @@ Version: 1.0.0
 
 ### Composer installation
 ```shell
-$ composer require andkirby/mage-config-set:@stable
+$ composer require andkirby/mage-config-set:~1.0@stable
 ```
 
 ## Functionality
