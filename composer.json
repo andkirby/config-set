@@ -1,0 +1,22 @@
+{
+  "name": "andkirby/mage-config-set",
+  "type": "magento-module",
+  "description": "Magento module for importing configuration.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "homepage": "https://github.com/andkirby/config-set",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "@stable",
+  },
+  "authors": [
+    {
+      "name": "Andrew Roslik",
+      "email": "bizkirby@gmail.com"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "magento-force": true
+  }
+}
