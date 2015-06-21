@@ -33,4 +33,13 @@
             </andKirby_configSet_setup>
         </resources>
     </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <andKirby_configSet>
+                    <file>andkirby/config-set.xml</file>
+                </andKirby_configSet>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>

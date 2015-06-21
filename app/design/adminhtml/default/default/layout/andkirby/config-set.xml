@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_system_config_edit>
+        <reference name="left">
+            <block type="adminhtml/template" name="andkirby_config_set_system_config_show_xpath"
+                   as="config.show.xpath" template="andkirby/config-set/system/config/show-path.phtml" />
+        </reference>
+        <reference name="head">
+            <action method="addJs">
+                <script>andKirby/configSet/show-config-path.js</script>
+            </action>
+        </reference>
+    </adminhtml_system_config_edit>
+</layout>

@@ -1,0 +1,9 @@
+<?php
+/** @var $this Mage_Adminhtml_Block_Template */
+
+/** @var $helper AndKirby_ConfigSet_Helper_Data */
+$helper = $this->helper('andKirby_configSet');
+?>
+<script>
+    var ANDKIRBY_CONFIG_PATH_SHOW = !!Number('<?php echo (int)$helper->isShowSystemConfigPath(); ?>');
+</script>
