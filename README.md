@@ -1,5 +1,5 @@
 # config-set
-Magento extension ConfigSet importing system configuration.
+Magento extension for importing system configuration parameters.
 
 Version: 1.0.0
 
